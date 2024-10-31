@@ -79,13 +79,15 @@ const Navbar = () => {
                         <a className="mr-5 hover:text-red-900">Forums</a>
                         <a className="mr-5 hover:text-red-900">Blog</a>
 
-                        {/* <div
+                        <div
                             className="hover:text-red-900 cursor-pointer relative flex flex-col"
                             onMouseEnter={() => setMoreDropdown(true)}
                             onMouseLeave={() => setMoreDropdown(false)}
 
                         >
-                            <div className='bg-blue-950 h-5 w-10 text-center rounded-lg align-text-top py-0'>New</div>
+                             <div className="absolute -top-4 -right-5 bg-[#1E3A8A] text-white text-xs px-2 py-0.5 rounded-full">
+                  New
+                </div>
 
                             More ▼
 
@@ -96,12 +98,12 @@ const Navbar = () => {
                                         <a className="block px-4 py-2 hover:bg-gray-200">Trucks</a>
                                     </div>
                                 )}
-                        </div> */}
+                        </div>
 
 
 
 
-<div className="flex items-center relative">
+{/* <div className="flex items-center relative">
                 <div className="absolute -top-4 -right-5 bg-[#1E3A8A] text-white text-xs px-2 py-0.5 rounded-full">
                   New
                 </div>
@@ -109,7 +111,7 @@ const Navbar = () => {
                 <p className="text-[#E4E4E6] text-sm">More</p>
                 <img src="drop_down.png" alt="dropdown" className="h-4 ml-1" />
               </div>
-            
+             */}
 
 
 
