@@ -27,7 +27,7 @@ const Navbar = () => {
 </div>
 
             <div className="flex items-center space-x-4">
-              <span className="text-sm">اردو</span>
+              <span className="text-sm text-red-600">اردو</span>
               <div className="border-l border-gray-400 h-4"></div>
               <span className="cursor-pointer hover:text-red-600">Sign Up</span>
               <div className="border-l border-gray-400 h-4"></div>
