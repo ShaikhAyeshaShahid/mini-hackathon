@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import SellCarOptions from "./components/SellCarOptions";
-import FeaturedCars from    "./components/FeaturedCars";
 
 
 export const metadata: Metadata = {
@@ -22,10 +20,9 @@ export default function RootLayout({
         className="bg-#f8f8f8"
       >
         <Navbar />
-        <SellCarOptions/>
-        <FeaturedCars/>
-        <Footer/>
         {children}
+        <Footer/>
+
       </body>
     </html>
   );
